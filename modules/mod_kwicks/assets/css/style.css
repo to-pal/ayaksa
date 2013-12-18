@@ -1,0 +1,147 @@
+.kwicks {
+	display: block;
+	list-style-type: none;
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks > * {
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.kwicks.kwicks-processed > * {
+	margin: 0;
+	position: absolute;
+}
+.kwicks-horizontal > li {
+	float: left;   
+}
+.kwicks-horizontal > :first-child {
+	margin-left: 0;
+}
+.kwicks-vertical > :first-child {
+	margin-top: 0;
+}
+
+.container-kwicks {
+	overflow:hidden;
+	position:relative;
+	top:-20px;
+	color:white;
+    border:5px solid rgba(63, 63, 110, 0.2);
+}
+
+.kwicks-horizontal li a {
+    text-shadow: 1px 1px 1px #333;
+	display:block;
+	float:left;
+	color:white;
+	text-decoration:none;
+}
+.kwicks-horizontal li a:hover {color:white;}
+
+.kwicks-horizontal li .shadow {
+	width:25px;
+	height:366px;
+	position:absolute;
+	right:0;
+	top:0;
+    border-right: 1px solid #fff; 
+	background:url(/modules/mod_kwicks/assets/images/kwick-item-shadow.png) no-repeat left top;
+	z-index:9;
+}
+
+.kwicks-horizontal li .thumb {
+	height:305px;
+	background:url(/images/loading.gif) no-repeat 50% 50%;
+}
+
+.kwicks-hori.zontal li .thumb .bg {
+	height:305px;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.kwicks-horizontal li .colorImage {
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+	width:100%;
+	height:305px;
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+.kwicks-horizontal li .desc {
+	width:100%;
+	margin-top:-1px;
+	position:relative;
+	z-index:7;
+    height: 60px;
+    border-top: 3px solid;
+}
+
+.kwicks-horizontal li .desc:after{
+  content: "";position: absolute;
+  left: 25px;
+  bottom: 102%;
+  border:8px solid transparent;
+  border-width:8px;
+  z-index: 8;
+}
+	.kwicks-horizontal li .desc h2 {
+		color:white;
+		font-size:14px;
+		padding:13px 0 0 27px;
+		margin:0;
+		width:152px;
+  }
+	.kwicks-horizontal li .desc .excerpt {
+		width:220px;
+		font-size:12px;
+		position:absolute;
+		right:-280px;
+		top:14px;
+		margin:0;
+	} 
+	.kwicks-horizontal li .kwick-button {
+		position:absolute;
+		right:10px;
+		bottom:-60px;
+		font-size:11px;
+		color:white;
+		text-transform:uppercase;
+		height:24px;
+		line-height:24px;
+		padding:0 8px;
+	}
+	.kwicks-horizontal li .kwick-button:hover {
+		background:black !important;
+	}
+
+
+.kwicks-horizontal li .desc.color-1,.kwicks-horizontal li .desc.color-6 {background:#355190; border-color:#5671aa;}
+.kwicks-horizontal li .desc.color-1 .kwick-button,.kwicks-horizontal li .desc.color-6 .kwick-button {background:#5671aa;}
+.kwicks-horizontal li .desc.color-1:after,.kwicks-horizontal li .desc.color-6:after{border-bottom-color:#5671aa;}
+	
+.kwicks-horizontal li .desc.color-2 {background:#3875B4; border-color:#5695d5;}
+.kwicks-horizontal li .desc.color-2 .kwick-button {background:#5695d5;}
+.kwicks-horizontal li .desc.color-2:after{border-bottom-color:#5695d5;}
+	
+.kwicks-horizontal li .desc.color-3,.kwicks-horizontal li .desc.color-7 {background:#46A4CF; border-color:#69c1e9;}
+.kwicks-horizontal li .desc.color-3 .kwick-button, .kwicks-horizontal li .desc.color-7 .kwick-button {background:#69c1e9;}
+.kwicks-horizontal li .desc.color-3:after,.kwicks-horizontal li .desc.color-7 .kwick-button{border-bottom-color:#69c1e9;}
+	
+.kwicks-horizontal li .desc.color-4 {background:#7AAE3B;border-color:#8cc14d;}
+.kwicks-horizontal li .desc.color-4 .kwick-button {background:#8cc14d;}
+.kwicks-horizontal li .desc.color-4:after{border-bottom-color:#8cc14d;}
+	
+.kwicks-horizontal li .desc.color-5 {background:#E3B42B;border-color:#f4c53d;}
+.kwicks-horizontal li .desc.color-5 .kwick-button {background:#f4c53d;}
+.kwicks-horizontal li .desc.color-5:after{border-bottom-color:#f4c53d;}
+
+

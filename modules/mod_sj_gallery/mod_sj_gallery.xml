@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>Sj Gallery</name>
+	<creationDate>November 2012</creationDate>
+	<author>YouTech Company</author>
+	<copyright>Copyright (c) 2012 YouTech Company</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>1.0</version>
+	<description>SJ_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_sj_gallery">mod_sj_gallery.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>core</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="fieldMODULECLASSSUFFIX" />
+				<field name="folder" type="text" size="40" default="images/" label="Image folder" description="Path to images folder." />
+				<field name="numberImage" type="text" default="27" label="Number image" description="" />
+				<field name="colofgallery" type="text" default="3" label="Columns of gallery" description="" />
+				<field name="rowofgallery" type="text" default="3" label="Rows of gallery" description="" />
+				<field name="orderby" type="list" default="1" label="Order" description="">
+					<option value="1">Time</option>
+					<option value="2">Name</option>
+					<option value="3">Random</option>
+				</field>
+				<field name="sort" type="radio" class="btn-group" default="1" label="Sort" description="">
+					<option value="1">Asc</option>
+					<option value="2">Desc</option>
+				</field>
+				<field name="titleposition" type="list" default="over" label="Title position" description="">
+					<option value="over">over</option>
+					<option value="outside">outside</option>
+					<option value="inside">inside</option>
+				</field>
+				<field name="transition" type="radio" class="btn-group" default="elastic" label="Popup transition" description="">
+					<option value="none">none</option>
+					<option value="elastic">elastic</option>
+				</field>
+				<field name="auto_play" type="radio" class="btn-group" default="1" label="Auto play" description="Auto Play">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="show_nextprev" type="radio" class="btn-group" default="1" label="Show next/preview" description="Auto Play">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="effect" type="list" label="Select Effect" description="Select effect" default="fade">
+					<option value="fade">Fade</option>
+					<option value="fadeZoom">Fade Zoom</option>
+					<option value="zoom">Zoom</option>
+					<option value="shuffle">Shuffle</option>
+					<option value="toss">Toss</option>
+					<option value="wipe">Wipe</option>
+					<option value="cover">Cover</option>
+					<option value="uncover">Uncover</option>
+					<option value="blindX">Blind X</option>
+					<option value="blindY">Blind Y</option>
+					<option value="blindZ">Blind Z</option>
+					<option value="growY">Grow Y</option>
+					<option value="curtainX">Curtain X</option>
+					<option value="curtainY">Curtain Y</option>
+					<option value="slideX">Slide X</option>
+					<option value="slideY">Slide Y</option>
+					<option value="turnUp">Turn Up</option>
+					<option value="turnDown">Turn Down</option>
+					<option value="turnLeft">Turn Left</option>
+					<option value="turnRight">Turn Right</option>
+					<option value="scrollRight">Scroll Right</option>
+					<option value="scrollLeft">Scroll Left</option>
+					<option value="scrollUp">Scroll Up</option>
+				</field>
+				<field name="slideshow_speed" type="text" default="800" label="Animation duration" description="Animation Duration" />
+				<field name="timer_speed" type="text" default="3000" label="Interval" description="Interval" />
+			</fieldset>
+			
+            <fieldset name="image_options" label="Image Options">
+                <field name="imgcfg_function" type="list" label="Resize Mode" default="resize_fit">
+                     <option value="none">None</option>
+                     <option value="resize_center">Center</option>
+                     <option value="resize_fill">Fill</option>
+                     <option value="resize_fit">Fit</option>
+                     <option value="resize_stretch">Stretch</option>
+                </field>
+                <field name="imgcfg_type" type="list" default="" label="Image Type" description="image type output">
+                     <option value="">Default</option>
+                     <option value="1">GIF</option>
+                     <option value="2">JPEG</option>
+                     <option value="3">PNG</option>
+                </field>
+                <field name="imgcfg_transparency" label="Keep Transparency" class="btn-group" description="Keep Transparency" type="radio" default="1">
+                     <option value="1">Yes</option>
+                     <option value="0">No</option>
+                </field>
+                <field name="imgcfg_width" type="text" default="300" label="Width" description="Width" />
+                <field name="imgcfg_height" type="text" default="200" label="Height" description="Height" />
+                <field name="imgcfg_background" type="color" default="" label="Background" description="Background" />
+            </fieldset>			
+			
+			<fieldset name="advanced">
+                <field name="include_jquery" type="radio" default="0" class="btn-group" label="Include jQuery" description="select Yes if you want use for joomla 2.5">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+				<field name="owncache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING
+					</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,14 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+
+ul.dropdown-menu li > a:hover,
+ul.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+ul.dropdown-menu .active > a,
+ul.dropdown-menu .active > a:hover{
+	background: none;
+	background-color:transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+}

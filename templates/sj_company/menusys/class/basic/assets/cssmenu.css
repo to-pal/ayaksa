@@ -1,0 +1,77 @@
+ul.navi ul{
+  background-color: #002b66;
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
+}
+ul.navi li:hover {position: relative;}
+ul.navi li.level1:hover,ul.navi li.level1.active { background-color: #E4EEF5; color:#9BAFBB}
+
+/* show level2 */
+ul.navi li.level1:hover ul.level2 {left: 0px;}
+
+/* show submenu level3 */
+
+ul.navi ul.level3:before{
+  content: "";position: absolute;
+  top:8px;left: 0px;
+  border-style: solid;
+  border-width: 8px 0 8px 10px;
+  z-index: 999;
+  border-color: transparent  transparent transparent #E4EEF5;
+}
+
+ul.navi li.level2:hover ul.level3,
+ul.navi li.level3:hover ul.level4,
+ul.navi li.level4:hover ul.level5,
+ul.navi li.level5:hover ul.level6,
+ul.navi li.level6:hover ul.level7,
+ul.navi li.level7:hover ul.level8,
+ul.navi li.level8:hover ul.level9 {
+  left: 100%;
+}
+
+ul.navi li.level1:hover {}
+
+ul.navi li.level1.active:hover div.separator.level1,
+ul.navi li.level1.active:hover a.level1 {
+
+}
+ul.navi li.level2:hover {}
+
+ul.navi li.level2:hover div.separator.level2,
+ul.navi li.level2:hover a.level2 {
+  color: #81ca07;
+  background-position: 8px -26px;
+}
+
+
+/* RTL 
+   show level2 */
+ul.navirtl ul {box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.7);}  
+
+ul.navirtl li:hover {position: relative;}
+
+/* show level2 */
+ul.navirtl li.level1:hover ul.level2 {
+  right: 0;
+  top: 100%;
+}
+
+/* show submenu level3 */
+ul.navirtl ul.level3:before{
+  direction: ltr;
+  left: auto;right: 0px;
+  border-width: 8px 10px 8px 0px;
+  border-color: transparent  #002250 transparent transparent ;
+}
+
+ul.navirtl li.level1:hover {}
+
+ul.navirtl li.level1:hover div.separator.level1,
+ul.navirtl li.level1:hover a.level1 {}
+
+ul.navirtl li.level2:hover {}
+
+ul.navirtl li.level2:hover div.separator.level2,
+ul.navirtl li.level2:hover a.level2 {
+  background-position: 97% -26px;
+}

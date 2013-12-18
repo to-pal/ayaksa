@@ -1,0 +1,93 @@
+.sj-gallery img{
+	/*-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease 0s;*/
+	padding:3px;
+	background:url(../images/bg-imag-gallery.png) repeat left top;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	float: left;
+}
+.sj-gallery a:hover img{
+	background:#FFF;
+}
+.sj-gallery li.img-col{
+	display:inline;
+	line-height:12px;
+	margin: 0 1px 1px 0;
+}
+.sj-gallery li.img-col.first{
+}
+.sj-gallery li.img-col.last{
+	margin-right: 0;
+}
+
+.sj-navigation{
+/* 	margin-left:3px; */
+	position:relative;
+	background: #666;
+	margin-bottom:3px;
+	height: auto;
+}
+.sj-navigation .sj-buttons{
+/* 	position:absolute; */
+/* 	right:-4px; */
+/* 	top:-25px; */
+	float: right;
+	padding: 5px;
+}
+.sj-navigation .sj-buttons .sj-prev:hover,
+.sj-navigation .sj-buttons .sj-next:hover{
+	cursor: pointer;
+}
+.sj-navigation .sj-buttons ul{
+    list-style: none;
+}
+.sj-navigation .sj-buttons li{
+	background:none;
+	margin:0 2px;
+	float:left;
+	padding:0 0;
+}
+.sj-navigation .sj-buttons li.sj-nav a{
+	background:url(../images/nav-gallery.png) no-repeat top left;
+	margin:0 2px;
+	height:15px;
+	width:15px;
+	display:inline-block;
+	text-indent:-999em;
+    margin-top:2px;
+}
+.sj-navigation .sj-buttons li.sj-nav a.activeSlide,
+.sj-navigation .sj-buttons li.sj-nav a:hover{
+	background-position:0 -15px;
+}
+.sj-item ul{
+	margin:0px;
+}
+.sj-item li{
+	padding:0;
+	float:left;
+	background:none;
+}
+.sj-gallery .sj-content{
+	overflow:visible
+}
+
+/*clearfix*/
+.sj-item>ul:after,
+.sj-gallery li.img-col a:after,
+.sj-gallery li.img-col:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+}
+.sj-item>ul,
+.sj-gallery li.img-col a,
+.sj-gallery li.img-col {
+	display: block;
+	overflow: hidden;
+}

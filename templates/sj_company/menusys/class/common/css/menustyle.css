@@ -1,0 +1,503 @@
+html{
+  * overflow-x: hidden; /* IE7+ fix */
+}
+ul.navi {
+  margin: 0 auto ;
+  padding: 0;
+  display: block;
+  zoom: 1;
+  list-style: none;
+  position: relative;
+}
+
+/* child ul elements */
+ul.navi ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 200px;
+  display: block;
+  
+  
+}
+ul.navi ul.level2{background:#E4EEF5;}
+/* all li */111
+ul.navi li {
+  background:none;
+  padding: 0 0;
+}
+
+ul.navi li.level2 {margin: 0;border-top:1px dashed #495f7e;}
+ul.navi ul.level2 li.first {border-top: none;}
+/* all links and div.separator */
+ul.navi a:active,
+ul.navi a:focus {
+  outline-style: none;
+}
+
+ul.navi div.separator,
+ul.navi a {
+  cursor: pointer;
+  text-decoration: none;
+  
+  display: block;
+}
+
+/* all span class */
+ul.navi span.menu-icon {
+  padding: 0 0 0 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+ul.navi span.menu-icon.bef {
+  padding: 0 0 0 30px;
+}
+
+ul.navi span.menu-icon.aft {
+  padding: 0 30px 0 0;
+}
+
+ul.navi span.menu-title {
+  display: block;
+  *display: inline-block;
+  padding: 6px 0;
+  line-height: 100%;
+}
+
+ul.navi span.menu-desc {
+  display: block;
+  line-height: 100%;
+  font-size: 77.7%;
+  text-transform: none;
+  padding: 0 0 6px 0;
+  color: #CCC;
+}
+ul.navi .level1:hover span.menu-desc,
+ul.navi .level1.hover span.menu-desc,
+ul.navi .level1.active span.menu-desc {
+  color: #333;
+}
+/* level 1 */
+ul.navi li.level1 {
+  padding: 0;
+  margin: 0 20px 0 0 ;
+  float: left;
+  position: relative;
+  
+}
+ul.navi li.level1.first {}
+ul.navi li.level1.last {}
+ul.navi li.level1.slider {
+  background: #666;
+  position: absolute;
+  overflow: hidden;
+}
+
+/* level 1 links */
+ul.navi div.level1.separator,
+ul.navi a.level1 {
+  font-size:110%;
+  color:#fff;
+  padding: 6px 15px ;
+  margin: 0 ;
+}
+
+ul.navi div.separator.level1.first,
+ul.navi a.level1.first {
+  
+}
+
+ul.navi div.separator.level1.last,
+ul.navi a.level1.last {
+  
+}
+ul.navi li.level1:hover div.separator.level1,
+ul.navi li.level1:hover a.level1,
+ul.navi li.level1.active div.separator.level1,
+ul.navi li.level1.active a.level1 {  color:#657883;}
+
+ul.navi li.level1.havechild div.level1.separator,
+ul.navi li.level1.havechild a.level1 {
+  
+}
+
+
+/* level 1 SPANs */
+ul.navi div.separator.level1 span.menu-icon,
+ul.navi a.level1 span.menu-icon {
+  
+}
+ul.navi div.separator.level1 span.menu-title,
+ul.navi a.level1 span.menu-title {
+  padding: 6px 12px;
+}
+/*
+ul.navi .havechild div.separator.level1 span.menu-title,
+ul.navi .havechild a.level1 span.menu-title {
+  background:url(../../../../images/ico-haschild.png) no-repeat right 14px;
+}
+*/
+ul.navi div.separator.level1 span.menu-title,
+ul.navi a.level1 span.menu-title {
+  line-height: 18px;
+}
+
+ul.navi div.separator.level1.showdesc span.menu-title,
+ul.navi a.level1.showdesc span.menu-title {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+ul.navi div.separator.level1 span.menu-desc,
+ul.navi a.level1 span.menu-desc {
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+
+/* level 2 */
+ul.navi ul.level2:before{
+  content: "";
+  width:100%;height: 5px;
+  position: absolute;top:-5px;
+}
+ul.navi ul.level2 {position: absolute;left: -999em;z-index: 999;}
+/*ul.navi ul.level2{left: 0;}*/
+ul.navi li.level2 {padding: 0;}
+ul.navi li.level2.active {}
+
+/* level 2 links */
+ul.navi div.separator.level2,
+ul.navi a.level2 {
+  margin: 0;
+  font-size: 90%;
+  padding: 0px 10px 0 30px;
+  background: url("../images/bullet-level2.png")  no-repeat 8px 10px;
+  text-transform: none;
+}
+
+ul.navi div.separator.level2.first,
+ul.navi a.level2.first {
+  
+}
+
+ul.navi div.separator.level2.last,
+ul.navi a.level2.last {
+  
+}
+
+ul.navi li.level2.active div.separator.level2,
+ul.navi li.level2.active a.level2 {
+  color: #81ca07;
+  background-position: 8px -26px;
+}
+
+/* level 2 SPANs */
+ul.navi div.separator.level2 span.menu-icon,
+ul.navi a.level2 span.menu-icon {
+  
+}
+
+ul.navi div.separator.level2 span.menu-title,
+ul.navi a.level2 span.menu-title {
+  padding: 10px 0;
+  line-height: 15px;
+}
+
+ul.navi div.separator.level2.showdesc span.menu-title,
+ul.navi a.level2.showdesc span.menu-title {
+  padding-top: 4px;
+  padding-bottom: 0;
+}
+
+ul.navi div.separator.level2 span.menu-desc,
+ul.navi a.level2 span.menu-desc {
+  padding-top: 3px;
+  padding-bottom: 4px;
+  line-height: 9px;
+}
+
+/* level 3+ */
+ul.navi ul.level3,
+ul.navi ul.level4,
+ul.navi ul.level5,
+ul.navi ul.level6,
+ul.navi ul.level7,
+ul.navi ul.level8,
+ul.navi ul.level9 {
+  position: absolute;
+  left: -999em;
+  top: 0;
+  margin:  0;
+  
+}
+
+ul.navi li.level3,
+ul.navi li.level4,
+ul.navi li.level5,
+ul.navi li.level6,
+ul.navi li.level7,
+ul.navi li.level8,
+ul.navi li.level9 {
+  border-bottom: 1px solid #001f49;
+  /*box-shadow: 0 1px 0 #003680 inset;*/
+  border-top: 1px solid #003680;
+}
+
+ul.navi li.level3.first,
+ul.navi li.level4.first,
+ul.navi li.level5.first,
+ul.navi li.level6.first,
+ul.navi li.level7.first,
+ul.navi li.level8.first,
+ul.navi li.level9.first {
+  border-top: none;
+}
+
+ul.navi li.level3.last,
+ul.navi li.level4.last,
+ul.navi li.level5.last,
+ul.navi li.level6.last,
+ul.navi li.level7.last,
+ul.navi li.level8.last,
+ul.navi li.level9.last {
+  border-bottom: none;
+}
+
+ul.navi li.level3.active,
+ul.navi li.level4.active,
+ul.navi li.level5.active,
+ul.navi li.level6.active,
+ul.navi li.level7.active,
+ul.navi li.level8.active,
+ul.navi li.level9.active {
+  
+}
+
+/* level 3+ links */
+ul.navi div.separator.level3,
+ul.navi div.separator.level4,
+ul.navi div.separator.level5,
+ul.navi div.separator.level6,
+ul.navi div.separator.level7,
+ul.navi div.separator.level8,
+ul.navi div.separator.level9,
+ul.navi a.level3,
+ul.navi a.level4,
+ul.navi a.level5,
+ul.navi a.level6,
+ul.navi a.level7,
+ul.navi a.level8,
+ul.navi a.level9 {
+  margin: 0;
+  padding: 0 10px 0 35px;
+  color: #fff;
+  background: url("../images/bullet-level3.png") no-repeat 15px -17px ;
+  text-transform: none;
+}
+
+/*****************************
+ * ALL 
+ *****************************/
+/*
+ul.navi li.level2 div.separator.havechild,
+ul.navi li.level2 a.havechild {
+  background-image: url(../images/havechild.png);
+  background-position: 98% -42px;
+  background-repeat: no-repeat;
+}
+ul.navi li.level2:hover a.havechild{
+  background-position: 98% 9px;
+}
+*/
+/*******************************
+ * With RTL language
+ *******************************
+ 
+ * root ul element */
+ul.navirtl {position: relative;}
+
+/* child ul elements */
+ul.navirtl ul {/*box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.7);*/}
+
+/* all li */
+ul.navirtl li {
+  background:none;
+  padding: 0 0;
+}
+
+ul.navirtl ul li {}
+ul.navirtl ul li.first {}
+ul.navirtl ul li.last {}
+/* all links and div.separator */
+ul.navirtl a:active,
+ul.navirtl a:focus {
+  outline-style: none;
+}
+
+ul.navirtl div.separator,
+ul.navirtl a {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+/* all span class */
+ul.navirtl span.menu-icon {
+  padding: 0 30px 0 0;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
+ul.navirtl span.menu-icon.bef {
+  padding: 0 30px 0 0;
+}
+
+ul.navirtl span.menu-icon.aft {
+  padding: 0 0 0 30px;
+}
+
+ul.navirtl span.menu-title {
+  display: block;
+  *display: inline-block;
+  padding: 6px 0;
+  line-height: 100%;
+}
+
+ul.navirtl span.menu-desc {
+  display: block;
+  line-height: 100%;
+  font-size: 77.7%;
+  text-transform: none;
+  padding: 0 0 6px 0;
+  color: #CCC;
+}
+ul.navirtl .level1:hover span.menu-desc,
+ul.navirtl .level1.hover span.menu-desc,
+ul.navirtl .level1.active span.menu-desc {
+  color: #333;
+}
+/* level 1 */
+ul.navirtl li.level1 {
+  padding: 0;
+  margin: 0 0 0 3px;
+  float: right;
+  position: relative; /* nooo */
+}
+
+ul.navirtl li.level1.first {
+  
+}
+
+ul.navirtl li.level1.last {
+  
+}
+
+ul.navirtl li.level1.active {
+}
+
+ul.navirtl li.level1.slider {
+  background: #666;
+  position: absolute;
+  z-index: -1;
+}
+
+ul.navirtl div.level1.separator,
+ul.navirtl a.level1 {}
+
+
+ul.navirtl li.level1.slider div.separator.level1,
+ul.navirtl li.level1.slider a.level1 {
+  color: #0D9FC4;
+}
+
+/* level 1 SPANs */
+ul.navirtl div.separator.level1 span.menu-icon,
+ul.navirtl a.level1 span.menu-icon {
+  
+}
+
+ul.navirtl div.separator.level1 span.menu-title,
+ul.navirtl a.level1 span.menu-title {}
+
+ul.navirtl div.separator.level1.showdesc span.menu-title,
+ul.navirtl a.level1.showdesc span.menu-title {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+ul.navirtl div.separator.level1 span.menu-desc,
+ul.navirtl a.level1 span.menu-desc {
+  padding-top: 3px;
+  padding-bottom: 10px;
+}
+
+/* level 2*/
+ul.navirtl ul.level2 {
+  position: absolute;
+  top: -999em;
+}
+
+ul.navirtl li.level2 {}
+ul.navirtl li.level2.active {  }
+
+ul.navirtl div.separator.level2,
+ul.navirtl a.level2 {
+  padding: 0 30px 0 10px;
+  background-position: 97% 10px;
+  
+}
+
+ul.navirtl div.separator.level2.first,
+ul.navirtl a.level2.first {
+  
+}
+
+ul.navirtl div.separator.level2.last,
+ul.navirtl a.level2.last {
+  
+}
+
+ul.navirtl li.level2.active div.separator.level2,
+ul.navirtl li.level2.active a.level2 {
+  background-position: 97% -26px;
+}
+
+/* level 2 SPANs */
+ul.navirtl div.separator.level2 span.menu-icon,
+ul.navirtl a.level2 span.menu-icon {
+  
+}
+
+ul.navirtl div.separator.level2 span.menu-title,
+ul.navirtl a.level2 span.menu-title {
+  
+}
+
+ul.navirtl div.separator.level2.showdesc span.menu-title,
+ul.navirtl a.level2.showdesc span.menu-title {
+  padding-top: 4px;
+  padding-bottom: 0;
+}
+
+ul.navirtl div.separator.level2 span.menu-desc,
+ul.navirtl a.level2 span.menu-desc {
+  padding-top: 3px;
+  padding-bottom: 4px;
+  line-height: 9px;
+}
+
+
+/* RTL 
+   show level2 */
+ul.navirtl ul {box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.7);}  
+
+ul.navirtl li:hover {position: relative;}
+
+/* show level2 */
+ul.navirtl li.level1:hover ul.level2 {
+  right: 0;
+  top: 100%;
+}

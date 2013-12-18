@@ -1,0 +1,37 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+@import url(../asset/fonts/icomoon/icomoon.css);
+
+/*   General style    */
+@font-face {
+    font-family: 'Socialico';
+    src: url('../asset/fonts/socialico-webfont.eot');
+    src: url('../asset/fonts/socialico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../asset/fonts/socialico-webfont.woff') format('woff'),
+         url('../asset/fonts/socialico-webfont.ttf') format('truetype'),
+         url('../asset/fonts/socialico-webfont.svg#SocialicoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'fontello';
+  src:  url("../asset/fonts/fontello.eot");
+  src:  url("../asset/fonts/fontello.eot?#iefix") format('embedded-opentype'),
+        url("../asset/fonts/fontello.woff") format('woff'),
+        url("../asset/fonts/fontello.ttf") format('truetype'),
+        url("../asset/fonts/fontello.svg#fontello") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.sj-extraslider .heading-title{font-family: "Anton";}
+div.category-list > h2{font-family: "Anton";}
+
+#position-e h2.item-title{font-family: "Anton";}
+
+

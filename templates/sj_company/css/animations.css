@@ -1,0 +1,121 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+
+/*   General style    */
+
+a{
+	-webkit-transition: color 0.15s ease-in-out 0s;
+	-moz-transition: color 0.15s ease-in-out 0s;
+	-o-transition: color 0.15s ease-in-out 0s;
+	-ms-transition: color 0.15s ease-in-out 0s;
+	transition: color 0.15s ease-in-out 0s;	
+}
+
+.cpanel-theme-color .theme-color{
+	-webkit-transition: text-shadow 0.25s ease-in-out 0s;
+	-moz-transition: text-shadow 0.25s ease-in-out 0s;
+	-o-transition: text-shadow 0.25s ease-in-out 0s;
+	-ms-transition: text-shadow 0.3s ease-in-out 0s;
+	transition: text-shadow 0.3s ease-in-out 0s;	
+}
+button,.button,
+ul.yt-login-regis li > a.show,
+div.image-content.intro,
+span.catItemImage img{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}
+
+textarea,
+input[type="text"],
+input[type="password"]{
+	-webkit-transition: background-color 0.3s linear 0s;
+	-moz-transition: background-color 0.3s ease-in-out 0s;
+	-o-transition: background-color 0.3s ease-in-out 0s;
+	-ms-transition: background-color 0.3s ease-in-out 0s;
+	transition: background-color 0.3s ease-in-out 0s;	
+}
+div.bsn-wrap.theme1 div.item a.more,
+div.bsn-wrap.default div.post  a.more-view:before{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}
+span.wraphover{
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;	
+}
+ul.list-imageitem li > a:after,
+a.readmore:after,
+a.more-view:after,
+div.see-all a:after{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}
+div.theme1 .post h2,
+.module_menu ul.menu li > a,
+.module_menu ul.menu li > .separator{
+	-webkit-transition: all 0.7s ease-in-out 0s;
+	-moz-transition: all 0.7s ease-in-out 0s;
+	-o-transition: all 0.7s ease-in-out 0s;
+	-ms-transition: all 0.7s ease-in-out 0s;
+	transition: all 0.7s ease-in-out 0s;
+}
+div.theme1 .post:hover h2,
+.module_menu ul.menu li:hover > a,
+.module_menu ul.menu li:hover > .separator{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}
+.sj-extraslider .extraslider-inner div.item-wrap.style2 .item-image > a:before,
+.sj-extraslider .extraslider-inner div.item-wrap.style2 .item-image > a:after{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}
+.sj-extraslider .extraslider-inner.style1 .item-wrap .item-image a:after{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}
+.bsn-wrap .bsn-image img{
+	
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}
+.bsn-wrap .bsn-image:hover img{
+	transform: scale(1.2) rotate(5deg);
+	-ms-transform: scale(1.2) rotate(5deg); /* IE 9 */
+	-webkit-transform: scale(1.2) rotate(5deg); /* Safari and Chrome */
+	-o-transform: scale(1.2) rotate(5deg); /* Opera */
+	-moz-transform: scale(1.2) rotate(5deg); /* Firefox */
+}
+a.readon{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;	
+}

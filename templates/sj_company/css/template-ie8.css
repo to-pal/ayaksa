@@ -1,0 +1,52 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+
+#yt_wrapper .container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {width: 980px;}
+
+
+
+
+div.bsn-wrap.default div.post:hover a.more-view{text-indent:-999em;}
+div.bsn-wrap.default div.post:hover a.more-view:before{text-indent:0;}
+.container-slider .slider .item img{width: auto;}
+
+ul.social li a{
+	background: none;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF,endColorstr=#7FFFFFFF);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF,endColorstr=#7FFFFFFF);
+	zoom: 1;
+}
+
+#myCarousel .carousel-caption > h4,
+#myCarousel .carousel-caption > .carousel-text{
+	background: none;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
+	zoom: 1;
+}
+.sj-gallery li.img-col img{width:auto;height: auto;max-width: none;}
+ul.dropdown-menu li > a:hover,
+ul.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+ul.dropdown-menu .active > a,
+ul.dropdown-menu .active > a:hover{
+	background: none;
+	background-color:transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+div.modcontent div.sj-email .input-box{width:80%;}
+#yt_wrapper #yt_spotlight .modcontent{padding: 15px 0px 15px 20px;}
+div.modcontent .bsn-wrap .shadow:before{background: url(../images/ie-shadow.png) no-repeat;}
+
+/* -- RTL Languages
+---------------------- */
+.rtl #yt_wrapper #yt_spotlight .modcontent{padding: 15px 20px 15px 0px;}
+.rtl div.categories-list ul ul > li{overflow: visible;}
+#yt_spotlight5{
+	min-height: 210px;
+}

@@ -1,0 +1,31 @@
+/*Bootstrap*/
+ol.linenums {margin: 0 33px 0 0; /* IE indents via margin-left */}
+ol.linenums li{padding: 0 12px 0 0;}
+.prettyprint.linenums{box-shadow: -40px 0 0 #FBFBFC inset, -41px 0 0 #ECECF0 inset;}
+
+/* Dropcap */
+span.Dropcap, span.ytDropcap1, span.ytDropcap2{float: right;margin: -4px 0 -3px 5px;}
+p.ytDropcap1{padding:0 50px 0 0;}
+span.ytDropcap1{margin: -4px -50px 0 0;}
+span.ytDropcap2{margin: -22px 0 0 5px;}
+
+/*Blockquotes*/
+blockquote{
+    border: none;border-right: 5px solid #EEEEEE;
+    padding: 0 15px 0 0;
+}
+blockquote[class*="yt-blockquote"]:before{float: left;}
+blockquote[class*="yt-blockquote"]:after{float: right;}
+blockquote[class*="yt-blockquote"] + span{float: left;}
+blockquote[class*="yt-blockquote"] + span:before{margin: 0 0 0 6px;}
+
+/*Lists Style*/
+ul.ytBullet1 li:before{margin: 0 0 0 10px;}
+ul.ytBullet2 li:before{margin: 0 0 0 10px;}
+ul.ytBullet3 li:before{margin: 0 0 0 10px;}
+ul.ytLine1 li:before,
+ul.ytLine2 li:before{margin: 0 0 0 10px;}
+
+ul[class*="ytnumblocks"]{margin-right: 0;}
+ul[class*="ytnumblocks"] li{padding: 0 45px 0 0;}
+ul[class*="ytnumblocks"] li:before{float: right;margin: 5px -45px 15px 10px;}

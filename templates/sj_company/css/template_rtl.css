@@ -1,0 +1,178 @@
+/******************************************
+***          YT Framework: CSS          ***
+*******************************************/
+
+/****** Override Bootstrap *****/
+.row-fluid .span4 {width: 31.623931623931625%;*width: 31.570740134569924%;}
+.row-fluid [class*="span"]{float: right;margin: 0 2.12766% 0 0;}
+.row-fluid [class*="offset"]{ margin: 0;}
+.row-fluid [class*="span"]:first-child{margin-right: 0;}
+.row-fluid .first-child{margin-right: 0;}
+.row-fluid .span12 {margin: 0;}
+
+.row-fluid .offset12 { margin-right: 105.52486187845304%;*margin-right: 105.41847889972962%;}
+.row-fluid .offset12:first-child { margin-right: 102.76243093922652%;*margin-right: 102.6560479605031%;}
+.row-fluid .offset11 {margin-right: 96.96132596685082%;*margin-right: 96.8549429881274%;}
+.row-fluid .offset11:first-child { margin-right: 94.1988950276243%;*margin-right: 94.09251204890089%;}
+
+.row-fluid .offset10 {margin-right: 88.39779005524862%; *margin-right: 88.2914070765252%;}
+.row-fluid .offset10:first-child { margin-right: 85.6353591160221%;*margin-right: 85.52897613729868%;}
+.row-fluid .offset9 { margin-right: 79.8342541436464%;*margin-right: 79.72787116492299%;}
+.row-fluid .offset9:first-child {margin-right: 77.07182320441989%;*margin-right: 76.96544022569647%;}
+.row-fluid .offset8 {margin-right: 71.2707182320442%;*margin-right: 71.16433525332079%;}
+.row-fluid .offset8:first-child { margin-right: 68.50828729281768%; *margin-right: 68.40190431409427%;}
+.row-fluid .offset7 {margin-right: 62.70718232044199%;*margin-right: 62.600799341718584%;}
+.row-fluid .offset7:first-child {margin-right: 59.94475138121547%;*margin-right: 59.838368402492065%;}
+.row-fluid .offset6 {margin-right: 54.14364640883978%;*margin-right: 54.037263430116376%;}
+.row-fluid .offset6:first-child { margin-right: 51.38121546961326%;*margin-right: 51.27483249088986%;}
+
+.row-fluid .offset5 {margin-right: 45.58011049723757%;*margin-right: 45.47372751851417%;}
+.row-fluid .offset5:first-child {margin-right: 42.81767955801105%;*margin-right: 42.71129657928765%;}
+.row-fluid .offset4 {margin-right:36.75213675213675%;*margin-right:36.645753773413354%}
+.row-fluid .offset4:first-child { margin-right: 34.25414364640884%; *margin-right: 34.14776066768544%;}
+.row-fluid .offset3 { margin-right: 28.45303867403315%;*margin-right: 28.346655695309746%;}
+.row-fluid .offset3:first-child { margin-right: 25.69060773480663%; *margin-right: 25.584224756083227%;}
+.row-fluid .offset2 {margin-left: 19.65811965811966%;*margin-left: 19.551736679396257%;}
+.row-fluid .offset2:first-child {margin-left: 17.094017094017094%;*margin-left: 16.98763411529369%;}
+.row-fluid .offset1 {margin-left: 11.11111111111111%;*margin-left: 11.004728132387708%;}
+.row-fluid .offset1:first-child {margin-left: 8.547008547008547%;*margin-left: 8.440625568285142%;}
+
+/* -----------------------------*/
+/*     Base Joomla              */
+/* -----------------------------*/
+html{direction: rtl;}
+ul, ol {margin: 0 15px 10px 0;}
+div.image-content {float: right;margin: 0 0 0 15px;position: relative;}
+
+body.contentpane .mailto-close {right:auto;left: 10px;text-align: left;}
+.pos-html{float:right;}
+.form-search .radio input[type="radio"], .form-search .checkbox input[type="checkbox"],
+.form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"]{
+	float: right;margin: 5px 0 0 5px;
+}
+ul.unstyled, ol.unstyled{margin: 0;}
+.input-prepend.input-append .add-on:last-child,
+.input-prepend.input-append .btn:last-child{border-radius: 3px 0 0 3px;}
+.input-prepend.input-append .add-on:first-child,
+.input-prepend.input-append .btn:first-child{border-radius: 0 3px 3px 0;text-align: left;}
+/* -----------------------------*/
+/*     Yt Responsive                 */
+/* -----------------------------*/
+
+
+/* -----------------------------*/
+/*     Module variations        */
+/* -----------------------------*/
+/*Menu Style*/
+h3.modtitle:before, div.contact > h3:before{margin: 0 5px 0 10px;}
+div.title-blank h3.modtitle:before{margin: 0 0 0 10px;}
+ul.latestnews{margin: 0 30px 0 0;}
+ul.latestnews li:before{float: right;margin: 0 -30px 0 -10px;background-image: url("../images/rtl/sprites.png");}
+
+/* Bg Style */
+div.bg2 h3.modtitle{
+	background: rgb(237,248,219); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(237,248,219,1) 0%, rgba(129,202,7,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(237,248,219,1)), color-stop(100%,rgba(129,202,7,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(237,248,219,1) 0%,rgba(129,202,7,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(237,248,219,1) 0%,rgba(129,202,7,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(237,248,219,1) 0%,rgba(129,202,7,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(237,248,219,1) 0%,rgba(129,202,7,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf8db', endColorstr='#81ca07',GradientType=1 ); /* IE6-9 */
+}
+/* Bullet Style */
+div.bullet1 ul.latestnews li:before{background-position: -100px -48px;margin: 5px -24px 0 0;}
+div.bullet2 ul.latestnews li:before{background-position: -150px 3px;margin: 5px -24px 0 0;}
+div.bullet3 ul.latestnews li:before{background-position: -150px -50px;margin: 5px -24px 0 0;}
+
+/* Icon Style */
+div.style-icon h3.modtitle:before{margin: 0 0 0 10px;}
+
+.module_menu ul.menu li{padding: 0 30px 0 0;background: url(../images/rtl/left_item.png) no-repeat 100% 5px;}
+
+/* ----------------------------*/
+/*     Block: yt_header        */
+/* ----------------------------*/
+#mod-finder-searchform{float: left;}
+#mod-finder-searchform .btn{right: auto;left: 2px;}
+/* ----------------------------*/
+/*     Block: yt_menuwrap      */
+/* ----------------------------*/
+
+/* ----------------------------*/
+/*     Block: yt_spotlight   */
+/* ----------------------------*/
+#yt_spotlight5 .row-fluid [class*="span"]{padding: 0 0 0 20px;border: none;border-left: 1px solid #4A4A4A;box-shadow: -1px 0 0 #2F2F2F;}
+#yt_spotlight div.row-fluid > div{border: none;border-right: 2px solid #fff;}
+#yt_spotlight div.row-fluid > div:first-child {border-left: medium none;border-right: medium none;}
+	#yt_spotlight .modcontent {padding: 15px 30px 15px 10px;}
+	div.img-top{float: right;margin: 0 0 0 10px;}
+	#position-b:before, #position-c:before{left: auto;right: -2px;background-image: url("../images/rtl/sprites.png");}
+/* ----------------------------*/
+/*     Block: content          */
+/* ----------------------------*/
+/* Breadcrumb */
+ul.breadcrumb li:first-child .divider{margin: 0 0 0 10px;}
+/* ---------------------------------------*/
+/*    Components (content, k2, vm, ...)   */
+/* ---------------------------------------*/
+
+/* -----------------
+Component content */
+
+/* Featured Content*/
+.article-text .item-image{float: right;margin: 0 0 10px 20px;}
+a.readmore:after{content: ">";}
+
+/* Category Content*/
+.icon-calendar{float: right;margin: 0 0 0 5px;}
+.btn-group.pull-right .dropdown-menu{right: auto;left: 0;}
+ul.dropdown-menu li{float: left;}
+ul.related-items li.related-item > a{padding:  0 20px 0 10px;background-position:  99% -20px;}
+
+/* -----------------------
+Component smart search */
+
+/* --------------------
+Component News Feed, Contact, Weblink... */
+.pull-right{float: left;}
+div.page-header > h1:before{margin: 0 2px 0 10px;}
+.form-horizontal .control-label{float: right;text-align: right;}
+#advanced-search{text-align: right;}
+	#advanced-search{padding: 0 15px 0 0;}
+	div.categories-list ul{padding: 0 15px 0 0;}
+	div.categories-list ul ul > li:after,
+	div.categories-list ul ul > li:before{left: auto;right: -1px;}
+	
+/* -----------------------
+Custom Module Html      */
+ul.social{float: left;}
+div.sj-email .input-box{float: right;margin: 0 0 0 5px; padding: 2px 25px 2px 5px;background-position: 99%  7px;}
+#yt_spotlight5 a.readmore:hover:after{margin: 0 5px 0 0;}
+a.readon:after{content: "\e805";}
+	a.readon:hover{padding: 0 10px 0 0;}
+ul.adress li{padding: 0 22px 0 0;}
+ul.adress li:before{left: auto;right: 0;}
+blockquote.black:after{line-height: 29px;float: right;}
+/* -----------------------
+Edit SJ Module             */
+a.more-view:after{content: ">";}
+div.theme1 .post{background: url("../images/rtl/left_item.png") no-repeat right center;}
+	div.theme1 .post h2{margin: 0 30px 0 0;}
+	div.theme1 div.see-all{text-align: left;}
+
+div.theme3 .basic-date{float: right;margin: 0 0 0 15px;}
+
+.extraslider-heading{float: right;margin: 0 0 0 2%;}
+	.sj-extraslider .extraslider-inner{float: right;}
+	.sj-extraslider .extraslider-control.button-type2 .button-prev{left: 0;}
+	.sj-extraslider .extraslider-control.button-type2 .button-next{right: 27%;}
+	.sj-extraslider .nav-page.nav-under{left: auto;right: 0;}
+	
+.bsn-wrap .bsn-image{float: right;margin: 0 0 0 15px;}
+div.moduletabs.top-position div.tabs-container ul.tabs li{float: right;}
+
+form#login-form1 #form-login-username .input-small{background-position: 96% 4px; }
+form#login-form1 #form-login-password .input-small{background-position: 96% -28px;}
+form#login-form1 #form-login-submit .controls{float: left;}
+form#login-form1 #form-login-submit .checkbox{float: right;}
