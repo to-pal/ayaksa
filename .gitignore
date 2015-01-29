@@ -6,3 +6,4 @@ logs/*
 plugins/system/cache/*
 plugins/system/log/*
 tmp/*
+images/

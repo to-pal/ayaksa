@@ -1,10 +1,10 @@
 <?php
 class JConfig {
 	public $offline = '0';
-	public $offline_message = 'Сайт закрыт на техническое обслуживание.<br /> Пожалуйста, зайдите позже.';
+	public $offline_message = 'Site is down!';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Стоматологическая клиника \\\\\\"Аякс-А\\\\\\"';
+	public $sitename = 'Стоматологическая клиника "Аякс-А"';
 	public $editor = 'ckeditor';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -13,9 +13,9 @@ class JConfig {
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'ayaksa_3';
-	public $password = '05021987';
-	public $db = 'ayaksa_3';
+	public $user = 'ayaksa';
+	public $password = '1111111';
+	public $db = 'ayaksa';
 	public $dbprefix = 'j_';
 	public $live_site = '';
 	public $secret = 'vBXIKjxryxRfZXM1';
@@ -24,14 +24,14 @@ class JConfig {
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
 	public $ftp_port = '';
-	public $ftp_user = '';
-	public $ftp_pass = '';
+	public $ftp_user = 'admin';
+	public $ftp_pass = '05021987';
 	public $ftp_root = '';
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailer = 'mail';
 	public $mailfrom = 'palesika2002@mail.ru';
-	public $fromname = 'Аякс-А';
+	public $fromname = 'system';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/home/ayaksa/domains/ayaksa.pp.ua/public_html/logs';
-	public $tmp_path = '/home/ayaksa/domains/ayaksa.pp.ua/public_html/tmp';
+	public $log_path = '/var/www/ayaksa/logs';
+	public $tmp_path = '/var/www/ayaksa/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
