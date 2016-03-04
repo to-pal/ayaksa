@@ -135,7 +135,6 @@ class JDatabaseDriverMysqli extends JDatabaseDriver
 		{
 			throw new RuntimeException('The MySQL adapter mysqli is not available');
 		}
-
 		$this->connection = @mysqli_connect(
 			$this->options['host'], $this->options['user'], $this->options['password'], null, $this->options['port'], $this->options['socket']
 		);

@@ -163,7 +163,7 @@ abstract class KwicksHelper
 	public static $image_cache = array();
 	
 	public static function getImage($item, $params, $ctype='article'){
-		$images = &self::getImages($item, $params, $ctype);
+		$images = self::getImages($item, $params, $ctype);
 		return is_array($images) && count($images) ? $images[0] : null;
 	}
 	

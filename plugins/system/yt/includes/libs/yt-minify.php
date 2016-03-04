@@ -130,8 +130,8 @@ class YT_Minify extends JObject
 		$content[40] = '$min_cachePath = \''.$path2.'\';';
 		$content[54] = '$min_documentRoot = \''.$path1.'\';';
 		$content[86] = '$min_serveOptions[\'maxAge\'] = 1800;';
-		
-		JFile::write(JPATH_PLUGINS.J_SEPARATOR."system".J_SEPARATOR."yt".J_SEPARATOR."includes".J_SEPARATOR."libs".J_SEPARATOR."minify".J_SEPARATOR."config.php", implode("\n", $content));
+		$t=implode("\n", $content);
+		JFile::write(JPATH_PLUGINS.J_SEPARATOR."system".J_SEPARATOR."yt".J_SEPARATOR."includes".J_SEPARATOR."libs".J_SEPARATOR."minify".J_SEPARATOR."config.php", $t);
 	}
 	
 	function optimizeReplaceFile($bodyString, $type, $arrFileExclude, $optimizeMergeFile = 1)

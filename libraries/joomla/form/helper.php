@@ -101,7 +101,7 @@ class JFormHelper
 	protected static function loadType($entity, $type, $new = true)
 	{
 		// Reference to an array with current entity's type instances
-		$types = &self::$entities[$entity];
+		$types = self::$entities[$entity];
 
 		$key = md5($type);
 
@@ -115,8 +115,8 @@ class JFormHelper
 		if ($class !== false)
 		{
 			// Instantiate a new type object.
-			$types[$key] = new $class;
-			return $types[$key];
+			self::$entities[$entity][$key] = new $class;
+			return self::$entities[$entity][$key];
 		}
 		else
 		{

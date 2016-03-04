@@ -1,2 +1,3 @@
 <?php
+//imagecreatetruecolor();
 phpinfo();

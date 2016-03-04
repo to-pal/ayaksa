@@ -202,7 +202,7 @@ if (!class_exists('YtMenu')){
 		}
 
 		public function canAccess(){
-			$user =& JFactory::getUser();
+			$user = JFactory::getUser();
 			if (!$this->j15){
 				return isset($this->access) && in_array($this->access, $user->getAuthorisedViewLevels());
 			} else {

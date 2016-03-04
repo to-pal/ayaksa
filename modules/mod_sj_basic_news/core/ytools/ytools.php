@@ -69,7 +69,7 @@ if (!class_exists('YTools')){
 		 * @param array $config
 		 * @return image url from image cache.
 		 */
-		public static function resize($image, $width, $height=null, $config=array()){
+		public static function resize($image, $width, $height=null, $config=array(),  $mode='stretch', $image_type=null){
 			// Compliance with old version call.
 			if (is_array($width)){
 				$config = $width;
@@ -676,7 +676,7 @@ if (!class_exists('YTools')){
 		private static function _getImage(){
 			if( self::$image === null ){
 				self::_import('image');
-				self::$image = &YTools_Image::getInstance();
+				self::$image = YTools_Image::getInstance();
 			}
 			return self::$image;
 		}
@@ -765,7 +765,7 @@ if (!class_exists('YTools')){
 			 * @param string $mode - Resize mode
 			 * @param int $image_type - IMAGETYPE_PNG, IMAGETYPE_GIF, ...
 			 */
-			static function resize($image, $width, $height, $mode='stretch', $image_type=null){
+			static function resize($image, $width, $height=null, $config=array(), $mode='stretch', $image_type=null){
 				// YTools::dump( func_get_args() );
 				$config = array();
 				if (isset($mode)){

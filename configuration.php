@@ -14,13 +14,13 @@ class JConfig {
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
 	public $user = 'ayaksa';
-	public $password = '1111111';
+	public $password = '111111';
 	public $db = 'ayaksa';
 	public $dbprefix = 'j_';
 	public $live_site = '';
 	public $secret = 'vBXIKjxryxRfZXM1';
 	public $gzip = '0';
-	public $error_reporting = 'default';
+	public $error_reporting = 'none';
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
 	public $ftp_port = '';
@@ -63,4 +63,8 @@ class JConfig {
 	public $feed_email = 'author';
 	public $cookie_domain = '';
 	public $cookie_path = '';
+	public $memcache_persist = '1';
+	public $memcache_compress = '0';
+	public $memcache_server_host = 'localhost';
+	public $memcache_server_port = '11211';
 }

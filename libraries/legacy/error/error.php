@@ -103,7 +103,7 @@ abstract class JError
 		}
 		else
 		{
-			$error = &self::$stack[0];
+			$error = self::$stack[0];
 		}
 		return $error;
 	}

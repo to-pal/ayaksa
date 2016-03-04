@@ -45,7 +45,7 @@ if ( !empty($position) ){
 }
 
 // load Renderer
-$document	= &JFactory::getDocument();
+$document	= JFactory::getDocument();
 $renderer	= $document->loadRenderer('module');
 
 // if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
