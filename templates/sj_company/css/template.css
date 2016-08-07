@@ -41,7 +41,7 @@ ul.latestnews,ul.menu{padding: 0;margin: 0 0 0 30px;list-style: none;}
 	ul.latestnews li:before{content: "";width:20px;height: 20px;float: left;margin: 0 10px 0 -30px;background: url("../images/sprites.png") no-repeat -48px -50px;}
 	ul.latestnews li:last-child{border-bottom: none;}
 	ul.latestnews li > a{color: #909090;display: block;}
-	ul.latestnews li > a:hover{color: #73b700;}
+	ul.latestnews li > a:hover{color: #49a6d1;}
 	
 ul.horizontal {padding: 0;margin: 0;}
 	ul.horizontal li{float: left;width:25%; list-style: none;}
@@ -197,14 +197,14 @@ div.bg1 div.modcontent{padding: 10px;}
 div.bg2 h3.modtitle:before{background-position: -100px 0;}
 div.bg2 h3.modtitle{
 	color: #fff;padding: 8px 5px;margin-bottom: 0;
-	background: #81ca07; /* Old browsers */
-	background: -moz-linear-gradient(left,  #81ca07 0%, #edf8db 99%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#81ca07), color-stop(99%,#edf8db)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #81ca07 0%,#edf8db 99%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #81ca07 0%,#edf8db 99%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #81ca07 0%,#edf8db 99%); /* IE10+ */
-	background: linear-gradient(to right,  #81ca07 0%,#edf8db 99%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81ca07', endColorstr='#edf8db',GradientType=1 ); /* IE6-9 */
+	background: #08c; /* Old browsers */
+	background: -moz-linear-gradient(left,  #08c 0%, #edf8db 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#08c), color-stop(99%,#edf8db)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #08c 0%,#edf8db 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #08c 0%,#edf8db 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #08c 0%,#edf8db 99%); /* IE10+ */
+	background: linear-gradient(to right,  #08c 0%,#edf8db 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08c', endColorstr='#edf8db',GradientType=1 ); /* IE6-9 */
 
 }
 div.bg2 div.modcontent{padding: 10px 5px;}
@@ -364,7 +364,7 @@ div.blog-featured .items-leading{padding:0 ;}
 	margin: 0;
 	font-family: arial;
 }
-.content-wrapper .page-header h2 a:hover{color: #73B700;}
+.content-wrapper .page-header h2 a:hover{color: #49a6d1;}
 .content-wrapper .page-header{
 	margin: 0;
 	padding: 0;
@@ -441,7 +441,7 @@ div.category-name:before
 div.blog > h2,
 div.category-name
 {
-    color: #73B700;
+    color: #657883;
     font-size: 150%;
     font-weight: normal;
     line-height: 100%;
@@ -453,7 +453,7 @@ div.category-name {
     margin: 0 0 10px;
     padding: 0 0 15px;
 }
-.item-page div.category-name a:hover{color: #73B700;}
+.item-page div.category-name a:hover{color: #49a6d1;}
 .page-header h2{font-size: 160%;line-height: 22px;margin: 0;letter-spacing: -0.5px;}
 .page-header h2 a{color: #686868;}
 
@@ -521,12 +521,12 @@ div.item-page{}
 }
 .pagination ul > li > a{color: #666666; font-weight: bold;}
 .pagination ul > li > span.pagenav{
-	border: 1px solid #73B700;
-	color: #73B700;
+	border: 1px solid #49a6d1;
+	color: #49a6d1;
 }
 .pagination ul > li:first-child > a, .pagination ul > li:first-child > span{border-radius: 0;}
 .pagination ul > li:last-child > a, .pagination ul > li:last-child > span{border-radius: 0;}
-.pagination ul > li > a:hover, .pagination ul > .active > a, .pagination ul > .active > span{border: 1px solid #73B700;}
+.pagination ul > li > a:hover, .pagination ul > .active > a, .pagination ul > .active > span{border: 1px solid #49a6d1;}
 
 /*****Member Page*****/
 img.persional{
@@ -624,7 +624,7 @@ ul.breadcrumb li:first-child .divider{
     height: 16px;
     line-height: 20px;
 }
-.breadcrumb li a:hover{ color: #73B700;}
+.breadcrumb li a:hover{ color: #49a6d1;}
 #yt_breadcrumb {margin: 0 0 20px;}
 #yt_breadcrumb .container {border-bottom: 1px dotted #D4D4D4;}
 #yt_breadcrumb div.module{margin: 0;}
@@ -769,10 +769,10 @@ Component smart search */
 	#search-results ul li{list-style: none;}
 	#search-results ul li .result-title {padding: 5px 10px;margin-bottom: 10px;border-bottom: 1px solid #ddd;background: #eee;font-size: 100%;}
 	#search-results ul li small{font-size: 100%;font-style: italic;color: #999;}
-	#search-results span.highlight{background: #73B700;padding: 2px 5px;margin: 0 3px;font-weight: normal;color: #fff;}
+	#search-results span.highlight{background: #49a6d1;padding: 2px 5px;margin: 0 3px;font-weight: normal;color: #fff;}
 	#search-results .search-pagination{margin-top:2em;}
 	#search-query-explained{font-weight: bold;}
-	#search-query-explained .term{background: #73B700;padding: 2px 5px;margin: 0 3px;color: #fff;}
+	#search-query-explained .term{background: #49a6d1;padding: 2px 5px;margin: 0 3px;color: #fff;}
 	
 /* -----------------------
 Component News Feed, Contact, Weblink...  */
@@ -807,7 +807,7 @@ div.categories-list{}
 		
 div.login{}
 	div.page-header{margin: 0 0 20px;padding: 0;border: none;}
-	div.page-header > h1{margin: 0;line-height: 30px;text-transform: uppercase;color: #73B700;font-size: 150%;font-weight: normal;}
+	div.page-header > h1{margin: 0;line-height: 30px;text-transform: uppercase;color: #49a6d1;font-size: 150%;font-weight: normal;}
 	div.page-header > h1:before {
 		background: url("../images/sprites.png") no-repeat scroll -50px 0 transparent;
 		content: "";
@@ -832,7 +832,7 @@ div.registration{}
 	.form-horizontal .controls input{width:250px;}
 	.form-horizontal .form-actions{padding: 0;}
 
-div.category-list > h2{margin: 0;line-height: 30px;text-transform: uppercase;color: #73B700;font-size: 150%;font-weight: normal;}
+div.category-list > h2{margin: 0;line-height: 30px;text-transform: uppercase;color: #49a6d1;font-size: 150%;font-weight: normal;}
 	div.category-list > h2:before {
 		background: url("../images/sprites.png") no-repeat scroll -50px 0 transparent;
 		content: "";
@@ -964,7 +964,7 @@ Edit Module SJ      */
 	#myCarousel .carousel-control{
 		width:32px;height: 54px;
 		line-height: 53px;
-		background: #81ca07;
+		background: #08c;
 		border: none;color: #fff;
 		border-radius: 0;
 		opacity: 1;
@@ -991,7 +991,7 @@ Edit Module SJ      */
 		position: absolute;right: 0;bottom: 0;z-index: 1;
 		font-style: normal; color: #fff;
 		padding: 0 10px;
-		display: inline-block;background: #81ca07;
+		display: inline-block;background: #08c;
 	}
 	#myCarousel .carousel-caption a.more:hover{background: #3e5f8b;}
 	[data-control]:before {
@@ -1153,7 +1153,7 @@ form#login-form1 .input-small{
 		display: inline-block;
 		font-weight: bold;color: #fff;
 	}
-	form#login-form1 ul.unstyled li > a:hover{ color: #81CA07;}
+	form#login-form1 ul.unstyled li > a:hover{ color: #08c;}
 /*--------------------------------
   Update Version Joomla25
 ----------------------------------*/
@@ -1192,8 +1192,8 @@ ul.pagenav{margin: 2em 0 0;overflow: hidden;text-align: left;}
 		display: block;padding: 3px 15px;
 		border: 1px solid #ddd;box-shadow:  0 1px 0 #fff inset;
 	}
-	ul.pagenav li > a:hover{color: #73b700;border-color: #ccc;}
-	ul.pagenav li > a:focus{background: #73b700;color: #fff;border-color: #66a200;box-shadow: inset 0 1px 0 rgba(255,255,255,0.4); }
+	ul.pagenav li > a:hover{color: #49a6d1;border-color: #ccc;}
+	ul.pagenav li > a:focus{background: #49a6d1;color: #fff;border-color: #66a200;box-shadow: inset 0 1px 0 rgba(255,255,255,0.4); }
 
 div.content-wrapper .article-info.muted{margin: 0 0 10px;float: left;}
 .item-headinfo{overflow: hidden;}

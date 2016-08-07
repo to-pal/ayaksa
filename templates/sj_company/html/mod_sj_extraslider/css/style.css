@@ -231,7 +231,7 @@ div.extraslider-inner .style2{}
 	.sj-extraslider .extraslider-inner div.item-wrap.style2 .item-image:hover > a:after{right:50%;}
 	
 	.sj-extraslider .extraslider-inner div.item-wrap.style2 .item-image img{border-radius: 130px;overflow: hidden;}
-	.sj-extraslider .extraslider-inner .item-wrap.style2 .item-info{text-align: center;}
+	.sj-extraslider .extraslider-inner .item-wrap.style2 .item-info{text-align: center; min-height: 85px;}
 	.sj-extraslider .extraslider-inner .item-wrap.style2 .item-info .item-content{margin-top: 5px;margin-bottom: 0;}
 	.sj-extraslider  .heading-title{font-size: 25px;color: #667984;}
 	.heading-content{font-style: italic;float: left;width: 100%;margin-top: 5px;}

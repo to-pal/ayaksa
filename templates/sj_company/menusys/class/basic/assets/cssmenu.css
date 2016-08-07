@@ -39,7 +39,7 @@ ul.navi li.level2:hover {}
 
 ul.navi li.level2:hover div.separator.level2,
 ul.navi li.level2:hover a.level2 {
-  color: #81ca07;
+  color: #08c;
   background-position: 8px -26px;
 }
 
