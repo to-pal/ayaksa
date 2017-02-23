@@ -625,7 +625,7 @@ ul.breadcrumb li:first-child .divider{
     line-height: 20px;
 }
 .breadcrumb li a:hover{ color: #49a6d1;}
-#yt_breadcrumb {margin: 0 0 20px;}
+#yt_breadcrumb {margin: 10px 0 20px;}
 #yt_breadcrumb .container {border-bottom: 1px dotted #D4D4D4;}
 #yt_breadcrumb div.module{margin: 0;}
 
@@ -654,7 +654,7 @@ border-top:5px solid #aaa;
 	#yt_spotlight5 .row-fluid [class*="span"]:first-child{padding-left: 0;}
 	
 /****** Block #content *****/
-#content{margin:0;}
+#content{margin-top:10px;}
 dl.stats-module{margin:0 ;}
 dl.stats-module dt{
 	background:#f6f6f6 url(../images/statistics-dt.gif) no-repeat right center;

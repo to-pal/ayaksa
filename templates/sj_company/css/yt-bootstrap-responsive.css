@@ -154,6 +154,7 @@ a,a:focus,button,button:focus,.btn,.btn:focus{outline:none;}
 	}
 	/* ---- SJ tools   -------- */
 	#cpanel_btn{display:none;}
+	#slide_show{display:none;}
 	#cpanel_wrapper{display: none;}
 	#yt-totop{display: none !important;}
 	ul.navi{display: none;}
